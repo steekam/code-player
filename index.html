@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width">
+
+	<title>Code Player</title>
+
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link href="jquery-ui/jquery-ui.css" type="text/css" rel="stylesheet">
+	<link rel="shortcut icon" href="favicon.ico" />
+
+	<script type="text/javascript" src="scripts/jquery.min.js"></script>
+
+	<script type="text/javascript" src="scripts/main.js"></script>
+
+	<script type="text/javascript" src="jquery-ui/jquery-ui.js"></script>
+</head>
+<body>
+
+	<div id="topBar">
+		<span id="logo">Code Player</span>
+
+		<div id="menu">
+			<div class="tabs active" id="html">HTML</div>
+			<div class="tabs" id="css">CSS</div>
+			<div class="tabs" id="javascript">JavaScript</div>
+			<div class="tabs active" id="output">Output</div>
+		</div>
+	</div>
+
+	<div id="pageContainer">
+
+	<textarea id="htmlPanel" class="panel">
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+</head>
+<body>
+
+</body>
+</html>
+	</textarea>
+	<textarea id="cssPanel" class="panel hidden"></textarea>
+	<textarea id="javascriptPanel" class="panel hidden"></textarea>
+
+	<iframe src="" id="outputPanel" class="panel"></iframe>
+
+	</div>	
+
+
+</body>
+</html>
